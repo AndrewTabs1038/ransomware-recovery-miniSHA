@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="BramComm" location="C:/Users/andre/OneDrive/Desktop/SATA/project_1/Vitis3/BramComm" platform="C:/Users/andre/OneDrive/Desktop/SATA/project_1/Vitis3/design_3_wrapper/export/design_3_wrapper/design_3_wrapper.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="BramComm_system" sysConfig="design_3_wrapper" runtime="cpp" cpu="standalone_psu_cortexa53_0" cpuInstance="psu_cortexa53_0" os="standalone" mssSignature="1dd990b041eb30a04ad0fec65d2c4055">
+  <configuration name="Debug" id="xilinx.gnu.arm.a53.exe.debug.501008610">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.arm.a53.exe.release.1048309608" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

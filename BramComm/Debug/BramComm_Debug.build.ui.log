@@ -1,0 +1,21 @@
+2024-12-13T06:01:11.041199500255-06:01:11 **** Incremental Build of configuration Debug for project BramComm ****
+000-make all 
+000-'Building file: ../src/helloworld.c'
+000-'Invoking: ARM v8 gcc compiler'
+000-aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IC:/Users/andre/OneDrive/Desktop/SATA/project_1/Vitis3/design_3_wrapper/export/design_3_wrapper/sw/design_3_wrapper/standalone_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+000-'Finished building: ../src/helloworld.c'
+000-' '
+000-'Building target: BramComm.elf'
+000-'Invoking: ARM v8 gcc linker'
+000-aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/andre/OneDrive/Desktop/SATA/project_1/Vitis3/design_3_wrapper/export/design_3_wrapper/sw/design_3_wrapper/standalone_psu_cortexa53_0/bsplib/lib -o "BramComm.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: BramComm.elf'
+000-' '
+000-'Invoking: ARM v8 Print Size'
+000-aarch64-none-elf-size BramComm.elf  |tee "BramComm.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  43766	   5344	  20834	  69944	  11138	BramComm.elf
+000-'Finished building: BramComm.elf.size'
+000-' '
+00255-
+06:01:11 Build Finished (took 750ms)
+
